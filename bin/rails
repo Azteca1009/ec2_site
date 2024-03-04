@@ -2,3 +2,8 @@
 APP_PATH = File.expand_path('../config/application', __dir__)
 require_relative '../config/boot'
 require 'rails/commands'
+db:
+  database: ec_site
+  username: root
+  password: root
+  socket: /var/lib/mysql/mysql.sock
